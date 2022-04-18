@@ -1,0 +1,87 @@
+/* .navigation{
+    display: flex;
+    justify-content: end;
+    background-color: red;
+    justify-self: flex-end;
+} */
+
+#navbar{
+    padding: 0px;
+}
+
+#intro{
+    background-color: rgba(245, 245, 220, 0.589);
+    top: 12.5%;
+}
+
+.bg-light{
+    background-color: white !important;
+}
+
+.carousel-img{
+    max-height: 70vh !important;
+    object-fit: cover;
+}
+
+.object-fit{
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro-text{
+    max-width: 65ch !important;
+}
+
+.des-text{
+    max-width: 50ch !important;
+    margin: auto !important;
+}
+
+.icons{
+    width: 10em !important;
+}
+
+.number-option{
+    background-color: #1D1D35;
+    width: 3em; 
+    aspect-ratio: 1/1 !important;
+    line-height: 3em;
+}
+
+.general-menu{
+    background-color: white !important;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.stay-size{
+    width: fit-content ;
+    /* height: fit-content; */
+}
+
+.scale2{
+    transform: scale(2);
+}
+
+.pop{
+    text-shadow: 3px 3px 5px green;
+    color: yellowgreen;
+}
+
+.f-em{
+    font-size: 1.0763em;
+    cursor: pointer;
+}
+.hover-twist:hover{
+    transition: transform 50ms ;
+    fill: white !important;
+    stroke: white !important;
+    /* transform: scale(4); */
+}
+
+@media(min-width: 768){
+    .number-option{
+        /* display: block; */
+        visibility: visible !important;
+    }
+}

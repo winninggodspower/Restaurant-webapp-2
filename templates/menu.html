@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+    <script src="../static/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="../static/js/jquery-3.6.0.js"></script>
+    <script src="../static/js/gsap.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <meta name="keywords" content="Restaurant,Restaurant-close-to-you,dona's,food,meal,heelthy meal">
+    <meta name="description" content="this is a Restaurant where you can buy food online">
+    <meta name="location" content="choaba,porthacourt,rivers state,nigeria">
+    <meta name="developer" content="winning godspower">
+    <title>Dona's Restaurant</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar navbar-light bg-light pt-3">
+            <div class="container-fluid ">
+                <a class="navbar-brand w-25 text-end m-0" href="#">LOGO</a>
+                <div class="navigation fs-4  w-50 d-flex justify-content-end">
+                    <div class="d-inline position-relative me-5 "><a href="cart.html" class="text-dark text-decoration-none">Cart</a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">2
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </div>
+                    <a href="" class="text-dark text-decoration-none ">login</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav fw-bold me-auto mb-2 ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 border-bottom border-success active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 border-bottom border-success" href="#">Current Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 border-bottom border-success" href="#">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <h2 class="text-center text-success text-capitalize">check weekly menu</h2>
+    <section class="lower-nav d-flex justify-content-center ">
+        <div aria-label="Page navigation example" class="mx-5">
+            <ul class="pagination ">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item "><a data-target='#Sun' class="page-link" href="#">Sun</a></li>
+                <li class="page-item"><a data-target="#Mon" class="page-link" href="#">Mon</a></li>
+                <li class="page-item"><a data-target="#Tue" class="page-link" href="#">Tue</a></li>
+                <li class="page-item"><a data-target="#Wed" class="page-link" href="#">Wen</a></li>
+                <li class="page-item"><li data-target="#Thurs" class="page-link" href="#">Thurs</a></li>
+                <li class="page-item"><a data-target="#Fri" class="page-link" href="#">Fri</a></li>
+                <li class="page-item"><a data-target="#Sat" class="page-link" href="#">Sat</a></li>
+                <li class="page-item"><a data-target="#Mon" class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="general-menu bg-danger mx-4 border my-4">
+        <div id="Mon" class="menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Lorem ipsum mon leigo</h3>
+                <p class="fw-bold text-start h-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Sun" class="menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Sun ipsum mon leigo</h3>
+                <p class="fw-bold text-start h-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Tue" class=" menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Tue ipsum dolor sit.</h3>
+                <p class="fw-bold text-start h-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Wed" class=" menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Lorem ipsum dolor sit.</h3>
+                <p class="fw-bold text-start h-75">Wed ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Thurs" class=" menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Lorem ipsum dolor sit.</h3>
+                <p class="fw-bold text-start h-75">Thu ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Fri" class=" menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Lorem ipsum dolor sit.</h3>
+                <p class="fw-bold text-start h-75">Fri ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+        <div id="Sat" class=" menu-item row rounded bg-secondary my-3 mx-1">
+            <img class="col-6 col-md-5 object-fit" src="../static/img/food3.jpg" alt="">
+            <div class="col d-flex justify-content-center flex-column">
+                <h3 class=" fs-4 my-4">Sat ipsum dolor sit.</h3>
+                <p class="fw-bold text-start h-75">Sat ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                    facilis.</p>
+            </div>
+            <div class="col  my-3 d-flex flex-sm-column align-items-center justify-content-around">
+                <div class="botton-box">
+                    <button class="btn btn-danger btn-lg">
+                        +<img class="scale2 ms-1" src="../static/icons/cart-fill.svg" alt="">
+                    </button>
+                </div>
+                <div class="button-box">
+                    <button class="btn  btn-primary btn-lg">price</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
